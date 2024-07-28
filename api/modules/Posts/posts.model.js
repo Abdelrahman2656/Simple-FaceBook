@@ -1,6 +1,7 @@
 import { DataTypes } from "sequelize";
 import sequelize from "../../Database/dbconnection.js";
 
+
 export const postModel = sequelize.define(
   "post",
   {
