@@ -2,7 +2,7 @@ import express from "express";
 import userRouter from "./modules/Users/users.routes.js";
 import PostsRouter from "./modules/Posts/posts.routes.js";
 import commentRouter from "./modules/Comments/comment.routes.js";
-import sequelize from "./Database/dbconnection.js";
+import sequelize from "./Database/dbconnection.js"
 const app = express();
 const port = process.env.port||3000;
 
