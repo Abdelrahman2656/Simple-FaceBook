@@ -43,7 +43,7 @@ import sequelize from "./Database/dbconnection.js";
 const app = express();
 
 // Set the port for the server to listen on, defaulting to 3000 if not specified in environment variables
-const port = process.env.PORT || 3000;
+const port =  3000;
 
 // Middleware to parse incoming JSON requests
 // This allows the application to handle JSON payloads in request bodies
